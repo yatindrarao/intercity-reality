@@ -1,0 +1,18 @@
+.main-container {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+.content {
+    height: 90vh;
+    background-image: url('./assets/black_vanila_toronto.jpg');
+    background-size: cover;   
+}
+
+.txt {
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    word-spacing: 0.5rem;
+}
