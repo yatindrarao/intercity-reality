@@ -25,6 +25,12 @@
     font-weight: medium;
 }
 
+@font-face {
+    font-family: Jost;
+    src: url('./fonts/Jost-Thin.ttf');
+    font-weight: thin;
+}
+
 .main-container {
     margin:0;
     padding:0;
@@ -48,4 +54,29 @@
     font-size : 3.313rem;
     text-transform : uppercase;
     color : #FFFFFF;
+}
+
+.about-us {
+    background-color: black;
+}
+.about-us-txt .title {
+  font-family : Myriad Pro;
+  font-size : 2.938rem;
+  color : #FFFFFF;
+}
+
+.about-us-txt p {
+    font-family: Jost;
+    color: #FFFFFF;
+    font-weight: thin;
+    font-size : 18px;
+    line-height : 33.02px;
+    letter-spacing : 0.58px;
+}
+
+.card-body {
+    font-family : Myriad Pro;
+    font-size : 28px;
+    color : #FFFFFF;
+    background: black;
 }
